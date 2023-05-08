@@ -363,6 +363,7 @@ textarea {
   line-height: inherit;
 }
 
+
 button,
 select {
   text-transform: none;
@@ -11200,4 +11201,17 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.button-link {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
 }
