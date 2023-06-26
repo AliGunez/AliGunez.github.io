@@ -363,7 +363,6 @@ textarea {
   line-height: inherit;
 }
 
-
 button,
 select {
   text-transform: none;
@@ -2317,6 +2316,19 @@ textarea.form-control-lg {
 .form-check-inline {
   display: inline-block;
   margin-right: 1rem;
+}
+
+.btn-link {
+  background-color: rgb(38, 0, 255);
+  padding: 12px 24px;
+  color: white;
+  border: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  border-color: black;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 .btn-check {
@@ -11121,8 +11133,9 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
+
 .projects-section .featured-text {
   padding: 2rem;
 }
@@ -11130,15 +11143,26 @@ body {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
+    margin-bottom: 5rem;
   }
+
+.projects-section .project img {
+    margin-top: 20px; /* Add margin to the top of the images */
+    width: 100%;
+}
+
+
+
 }
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
+  margin-bottom: 5rem;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
+    
   }
 }
 
@@ -11203,15 +11227,3 @@ body {
   padding: 5rem 0;
 }
 
-.button-link {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: .25rem;
-  cursor: pointer;
-  user-select: none;
-  text-decoration: none;
-}
